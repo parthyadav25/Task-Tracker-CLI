@@ -2,6 +2,11 @@
 
 A simple command-line application to add, update, delete, and track tasks stored in a JSON file.
 
+## Project Link
+
+This project is based on the Task Tracker CLI project from roadmap.sh:  
+https://roadmap.sh/projects/task-tracker
+
 ## Requirements
 
 - Programming language: Java
