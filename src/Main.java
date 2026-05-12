@@ -19,6 +19,8 @@ public class Main {
         }
 
         String command = args[0];
+
+        //the following block checks for the type of command entered
         if(command.equals("add"))
             handleAddTask(args);
         else if(command.equals("list"))
@@ -124,7 +126,7 @@ public class Main {
         Integer taskId = parseIntOrNull(args[1]);
 
         if(taskId == null){
-            System.out.println("Invalid task id: Numeric id value required");
+            System.out.println("Invalid task id: Integer id value required");
             return;
         }
         String newTaskDescription = args[2];
@@ -156,7 +158,7 @@ public class Main {
         Integer taskId = parseIntOrNull(args[1]);
 
         if(taskId == null){
-            System.out.println("Invalid task id: Numeric id value required");
+            System.out.println("Invalid task id: Integer id value required");
             return;
         }
         Task task = findTaskById(taskId);
@@ -183,7 +185,7 @@ public class Main {
         Integer taskId = parseIntOrNull(args[1]);
 
         if(taskId == null){
-            System.out.println("Invalid task id: Numeric id value required");
+            System.out.println("Invalid task id: Integer id value required");
             return;
         }
 
@@ -215,7 +217,7 @@ public class Main {
         Integer taskId = parseIntOrNull(args[1]);
 
         if(taskId == null){
-            System.out.println("Invalid task id: Numeric id value required");
+            System.out.println("Invalid task id: Integer id value required");
             return;
         }
 

@@ -43,7 +43,7 @@ Run the commands from the directory where you compiled the code.
   java Main add "Buy groceries"
   ```
 
-### Update a task
+### Update a task description
 
 - Command:
 
